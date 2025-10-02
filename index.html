@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RacingWorld</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1 id="topnav">Accueil</h1>
+    <nav id="navbar">
+        <ul>
+            <li><a href="index.html">Accueil</a></li>
+            <li><a href="carte.html">Carte</a></li>
+            <li><a href="compte.html">Compte</a></li>
+            <li class="show">
+                <span>Classements</span>
+                <ul class="hide">
+                    <li><a href="F1p.html">F1 pilotes</a></li>
+                    <li><a href="F1c.html">F1 constructeurs</a></li>
+                    <li><a href="WEChyp.html">Hypercar constructeurs</a></li>
+                </ul>
+            </li>
+            <li><a href="about.html">About</a></li>
+        </ul>
+    </nav>
+    <p>News :</p>
+    <picture>
+        <source srcset="large-image.jpg" media="(min-width: 800px)">
+        <source srcset="medium-image.jpg" media="(min-width: 400px)">
+        <img src="small-image.jpg" alt="Vroom">
+    </picture>
+    <figcaption>Vroom</figcaption>
+    <script src="script/script.js"></script>
+    <video controls>
+        <source src="video.mp4" type="video/mp4">
+        <source src="video.webm" type="video/webm">
+        <source src="video.ogg" type="video/ogg">
+        Votre navigateur ne prend pas en charge la balise vidéo.
+    </video>
+    <iframe width="480" height="270" src="https://youtube.com/embed/mVpkDfTz7v4?autoplay=0&mute=1"></iframe>
+    
+</body>
+</html>

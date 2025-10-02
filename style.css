@@ -1,0 +1,28 @@
+
+a{
+    color: black;
+    text-decoration: none;
+}
+a:hover{
+    color: blue;
+}
+.hide{
+    display: none;
+    flex-direction: column;
+    list-style-type: disc;
+}
+span:hover{
+    color: blue;
+}
+#topnav{
+    text-align: center;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    background-color: rgb(139, 0, 0);
+    color:white;
+}
+ul{
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+}
